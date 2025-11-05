@@ -1,18 +1,49 @@
+body {
+  background: linear-gradient(250deg, #2A4EC1 25%, #090033 100%);
+}
+
+.background-card {
+  background: linear-gradient(250deg, #D1B3FF 25%, #ADFF2F 100%);
+  /* background-color: #D1B3FF; */
+  margin: 0 auto 30px auto;
+  color: #333;
+  padding: 15px;
+  max-width: 900px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+}
+
 .profile_img {
-    width: 150px;
+  width: 150px;
   height: 150px;
   border-radius: 50%;  
   object-fit: cover;  
-  border: 3px solid #000000;
+  border: 3px solid #414499;
 }
 
 .profile-container {
+  /* background: linear-gradient(250deg, #00C0E9 25%, #FF49C5 100%); */
+  /* background-color: #D1B3FF; */
+  background: linear-gradient(250deg, #D1B3FF 25%, #ADFF2F 100%);
+  border-radius: 30px;
+  max-width: 550px;
+  margin: 0 auto 30px auto;
   display: flex;          
   align-items: center;    
   gap: 20px;              
   padding: 20px;
-  background-color: #f8f9fa;
-  border-radius: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+hr{
+  margin-bottom: 40px;
 }
 
 nav a {
@@ -23,23 +54,14 @@ nav a {
 }
 
 nav a:hover {
-  color: #f0f0f0;  
-  text-decoration: underline;
+  margin: 0 auto 30px auto;
+  color: #cc2525;  
+  text-decoration: underline overline;
 }
 
 nav li {
   display: inline-block;
   margin-right: 40px;
   margin-left: 40px;
-}
-
-body {
-    background: linear-gradient(250deg, #2A4EC1 25%, #090033 100%);
-}
-
-.profile-container {
-    /* background: linear-gradient(250deg, #00C0E9 25%, #FF49C5 100%); */
-    background-color: #f8f9fa;
-    
 }
 
